@@ -6,4 +6,4 @@ const ProfilePage = () => {
   )
 }
 
-export default ProfiPepage
+export default ProfilePage
