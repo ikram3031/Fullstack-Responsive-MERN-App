@@ -73,7 +73,6 @@ const MyPostWidget = ({ picturePath }) => {
                     }}
                 />
             </FlexBetween>
-
             {isImage && (
                 <Box
                     border={`1px solid ${medium}`}
@@ -168,7 +167,7 @@ const MyPostWidget = ({ picturePath }) => {
                 </Button>
             </FlexBetween>
         </WidgetWrapper>
-    )
-}
+    );
+};
 
-export default MyPostWidget
+export default MyPostWidget;
